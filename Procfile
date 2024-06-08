@@ -1,1 +1,1 @@
-web: python print_server.py
+web: gunicorn print_server:app
